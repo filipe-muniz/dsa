@@ -35,6 +35,4 @@ const get = <A>(list: LinkedList<A>, index: number): A | null =>{
     return  current === null ? null : current.value
 }
 
-const list = { head: null, tail: null, size: 0 };
-console.log(empty(list))
 export {append, empty, get, size}
