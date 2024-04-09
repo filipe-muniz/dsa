@@ -10,7 +10,8 @@
     "dev": "ts-node './src/index.ts'",
     "test": "jest",
     "test:watch": "jest --watchAll",
-    "lint": "eslint src/**/*.ts --fix"
+    "lint": "eslint src/**/*.ts --fix",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",

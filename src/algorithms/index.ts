@@ -1,8 +1,8 @@
 import { binarySearch, binarySearchIterative } from "./search/binary-search";
 
 const Algorithms = {
-    binarySearch, 
-    binarySearchIterative
-}
+  binarySearch,
+  binarySearchIterative,
+};
 
-export default Algorithms
+export default Algorithms;
