@@ -1,5 +1,5 @@
-import { LinkedList } from "../../@types/types";
-import { Node } from "../../@types/types";
+import { LinkedList, Node } from "../../@types/types";
+
 
 const append = <A>(list: LinkedList<A>, newNode: Node<A>): LinkedList<A> | null => {
     if(list.head === null){
