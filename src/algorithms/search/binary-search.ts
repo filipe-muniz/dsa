@@ -1,5 +1,6 @@
-export type Type = number | string
-export const binarySearch = (xs: Type[], target: Type): number | null => {
+import type { Comparable } from "../../@types/types";
+
+export const binarySearch = (xs: Comparable[], target: Comparable): number | null => {
   const search = (start: number, end: number): number | null => {
     const mid = Math.floor((start + end) / 2);
 
@@ -11,7 +12,7 @@ export const binarySearch = (xs: Type[], target: Type): number | null => {
   return search(0, xs.length - 1);
 };
 
-export const binarySearchIterative = (xs: Type[], target: Type): number | null => {
+export const binarySearchIterative = (xs: Comparable[], target: Comparable): number | null => {
   let start = 0;
   let end = xs.length - 1;
   let mid;

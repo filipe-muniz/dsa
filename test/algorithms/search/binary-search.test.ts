@@ -1,7 +1,7 @@
-import { binarySearch, binarySearchIterative,Type} from '../../../src/algorithms/search/binary-search';
-
+import { binarySearch, binarySearchIterative} from '../../../src/algorithms/search/binary-search';
+import { Comparable } from '../../../src/@types/types';
 describe('binarySearch', () => {
-    type BinarySearch = (arr: Type[], target: Type) => number | null
+    type BinarySearch = (arr: Comparable[], target: Comparable) => number | null
   
     const runTest = (binarySearch: BinarySearch) => {
       it('does not find target in an empty array', () => {

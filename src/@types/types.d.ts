@@ -10,3 +10,5 @@ export type LinkedList<A> = {
     tail: Node<A> | null;
     size: number;
 }
+
+export type Comparable = string | number;
